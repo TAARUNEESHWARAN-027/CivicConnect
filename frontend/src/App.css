@@ -1,0 +1,49 @@
+/* ==============================
+   App-Level Styles
+   ============================== */
+
+/* Loading Screen */
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.loading-text {
+  font-size: 18px;
+  color: var(--text-secondary);
+}
+
+/* Landing Page */
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.landing-content {
+  max-width: 600px;
+}
+
+.landing-content h1 {
+  font-size: 36px;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.landing-content p {
+  font-size: 18px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.landing-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}

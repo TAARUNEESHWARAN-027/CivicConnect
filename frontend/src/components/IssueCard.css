@@ -1,0 +1,63 @@
+/* ==============================
+   IssueCard Styles
+   ============================== */
+
+.issue-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.issue-card:hover {
+  text-decoration: none;
+}
+
+.issue-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+
+.issue-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+  flex: 1;
+}
+
+.issue-card-body {
+  margin-bottom: 16px;
+}
+
+.issue-description {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.issue-card-footer {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.issue-meta {
+  font-size: 12px;
+  color: var(--text-secondary);
+  background-color: var(--bg-color);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.issue-card-reporter {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-color);
+  font-size: 13px;
+  color: var(--text-secondary);
+}
